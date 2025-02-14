@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pourquoi je t'aime ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Je peux résumer ça en 5 mots : <br>Parce que tu es toi Arsene !</h1>
+        <p class="intro-text">
+            Mais tu me connais et tu sais comme je suis bavarde
+            <br>"j'veux qu'nos corps s'assemblent,<br>
+            Que printemps été automne passent et que nos petits nous ressemblent"
+            <br> c'est pour ça que je t'invite à appuyer le bouton
+        </p>
+
+        <!-- 🎥 Vidéo principale -->
+        <video id="mainVideo" width="100%" controls autoplay loop muted>
+            <source src="video1.mp4" type="video/mp4">
+            Ton navigateur ne supporte pas la vidéo.
+        </video>
+
+        <!-- 📜 Texte et image qui changent -->
+        <p id="message">Tu ne seras pas déçu. ❤️</p>
+        <img id="image" src="" alt="Image" class="dynamic-image">
+
+        <!-- 🎯 Bouton pour changer -->
+        <button onclick="showReason()">Clique ici</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
